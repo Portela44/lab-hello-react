@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #3A3B3C;
 }
 
 .App-logo {
@@ -84,7 +83,41 @@
   transition: 0.3s;
 }
 
+/* landing general */
 .landing {
   color:white;
   margin: 20px 0px 50px;
+  background-color: #3A3B3C;
+}
+
+/* FEATURES SECTION */
+
+/* all-features */
+
+.feature{
+  width:150px;
+}
+
+/* each-feature */
+
+.feature>h6,h3 {
+  margin:5px 16px;
+  text-align: left;
+}
+
+.feature>h6{
+  font-size:0.8em;
+  font-weight: 300;
+}
+
+.feature>img {
+  width:120px;
+}
+
+/* features general */
+
+.features{
+  color: #3A3B3C;
+  display:flex;
+  justify-content: space-evenly;
 }
