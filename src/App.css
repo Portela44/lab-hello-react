@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #3A3B3C;
 }
 
 .App-logo {
@@ -35,4 +36,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* LANDING SECTION */
+/* navbar */
+.navbar {
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.navbar>img {
+  padding: 15px 40px 0px;
+}
+
+/* header */
+.header {
+  text-align:left;
+  padding: 10vh 40px 7vh;
+}
+
+.header>h1 {
+  font-size: 4em;
+  width: 40vw;
+  margin: 15px 0px;
+}
+
+.header>h5 {
+  font-size: 1.2em;
+  font-weight: 300;
+  width: 25vh;
+  margin: 0px 0px 45px;
+}
+
+.header>button {
+  width:170px;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-decoration: none;
+  font-size: 1.4em;
+  text-align: center;
+  color: #3A3B3C;
+  font-weight: 600;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius:7px;
+  transition: 0.3s;
+}
+
+.landing {
+  color:white;
+  margin: 20px 0px 50px;
 }
